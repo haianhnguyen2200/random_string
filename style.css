@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  margin: 32px;
+}
+
+.app h1 {
+  font-size: 48px;
+  color: #999;
+  padding: 16px;
+}
+
+.btn {
+  display: flex;
+  margin: 16px;
+}
+
+.arrange-quick,
+.arrange-sort,
+.arrange-bubble,
+.btn-create {
+  width: 150px;
+  height: 32px;
+  font-size: 16px;
+  margin-right: 32px;
+}
+
+.app-body {
+  margin-top: 12px;
+}
+
+.num-item {
+  list-style: none;
+  padding: 4px 16px;
+}
