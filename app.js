@@ -87,41 +87,41 @@ btnBubble.onclick = function () {
 }
 
 // --- METHOD 3: Quick Sort ---
-function quickSort (array) {
-   var size = array.length;
+// function quickSort (array) {
+//    var size = array.length;
 
-   var less = []
-   var greater = []
-   var pivot = array.splice(Math.floor(size / 2), 1);
+//    var less = []
+//    var greater = []
+//    var pivot = array.splice(Math.floor(size / 2), 1);
 
-   Array.prototype.quickSort = function () {
-      for (var i = size - 1; i >= 0; i--) {
-         if (array[i] <= pivot) {
-            less.push(array[i]);
-         } else {
-            greater.push(array[i]);
-         }
-      }
-   }
-   var c = [];
-   return c.concat(less.quickSort(), pivot, greater.quickSort());
-}
+//    Array.prototype.quickSort = function () {
+//       for (var i = size - 1; i >= 0; i--) {
+//          if (array[i] <= pivot) {
+//             less.push(array[i]);
+//          } else {
+//             greater.push(array[i]);
+//          }
+//       }
+//    }
+//    var c = [];
+//    return c.concat(less.quickSort(), pivot, greater.quickSort());
+// }
 
-btnQuick.onclick = function () {
-   var valueList = [];
-      listNum.forEach(function (num) {
-         return result = valueList.push(num.value)
-      })
+// btnQuick.onclick = function () {
+//    var valueList = [];
+//       listNum.forEach(function (num) {
+//          return result = valueList.push(num.value)
+//       })
 
-   quickSort(valueList)
+//    quickSort(valueList)
 
-   var html = valueList.map(function(num, index) {
-         return `
-            <li class="num-item">${index + 1}: ${num}</li>
-         `;     
-      })
-   app.innerHTML = html.join('')  
-}
+//    var html = valueList.map(function(num, index) {
+//          return `
+//             <li class="num-item">${index + 1}: ${num}</li>
+//          `;     
+//       })
+//    app.innerHTML = html.join('')  
+// }
 
 
 
