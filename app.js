@@ -88,11 +88,11 @@ btnBubble.onclick = function () {
 
 // --- METHOD 3: Quick Sort ---
 // function quickSort (array) {
-//    var size = array.length;
+//    var size = array.length
 
 //    var less = []
 //    var greater = []
-//    var pivot = array.splice(Math.floor(size / 2), 1);
+//    var pivot = array.splice(Math.floor(size / 2), 1)
 
 //    Array.prototype.quickSort = function () {
 //       for (var i = size - 1; i >= 0; i--) {
@@ -103,12 +103,12 @@ btnBubble.onclick = function () {
 //          }
 //       }
 //    }
-//    var c = [];
-//    return c.concat(less.quickSort(), pivot, greater.quickSort());
+//    var c = []
+//    return c.concat(less.quickSort(), pivot, greater.quickSort())
 // }
 
 // btnQuick.onclick = function () {
-//    var valueList = [];
+//    var valueList = []
 //       listNum.forEach(function (num) {
 //          return result = valueList.push(num.value)
 //       })
